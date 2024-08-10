@@ -1,43 +1,25 @@
 package org.example;
 
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        //pesqueisa binaria
+        //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        //pesquisa por extremidades
+        //a regra de negocio é importante para saber se deixa vazio ou nao o array quando se autocompletar
+        // ;
 
-        int [] vetor = new int [4];
+        int [] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-        vetor[0] = 3;
-        vetor[1] = 4;
-        vetor[2] = 5;
-        vetor[3] = 6;
+        int i = Arrays.binarySearch(array, 7);
 
-
-        int [] novoVetor = {2024, 2023, 2025, 2030};
-        System.out.println( novoVetor[0] );
-        novoVetor[0] = 2032;
-        System.out.println( novoVetor[0] );
-
-        System.out.println(novoVetor.length);
-
-        //loop tradicional
-        //for (start; condicao para se mander; incremento)
-        for (int i = 0; i< novoVetor.length; i++){
-            System.out.println(novoVetor[i]);
-        }
-
-        //loop aprimorado
-        //for(tipo nomeVariavel: array}
-        for (int ano : novoVetor){
-            System.out.println(ano);
-        }
+        System.out.println(i);
 
 
-        //while
-        int i = 0;
-        while (i != novoVetor.length){
-            System.out.println(novoVetor[i]);
-            i++;
-        }
+
+
     }
 }
