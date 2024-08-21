@@ -7,32 +7,32 @@ import java.util.Stack;
 public class FIla {
     public static void main(String[] args) {
 
-//        Queue<String> fila = new LinkedList<>();
-//
-//        fila.add("maria");
-//        fila.add("João");
-//        fila.add("Pedro");
-//        fila.add("Carlos");
-//        fila.add("Ana");
-//
-//
-//        System.out.println(fila.size());
-//
-//        //consulta para verificar o proxima
-//        System.out.println(fila.peek());
-//
-//        System.out.println(fila.size());
-//
-//        //chamar o proximo, recupera e remove da fila
-//        System.out.println(fila.poll());
-//
-//        System.out.println(fila.size());
-//
-//        System.out.println(fila.poll());
-//
-//        System.out.println(fila.size());
-//
-//        fila.remove("carlos");
+        Queue<String> fila = new LinkedList<>();
+
+        fila.add("maria");
+        fila.add("João");
+        fila.add("Pedro");
+        fila.add("Carlos");
+        fila.add("Ana");
+
+
+        System.out.println(fila.size());
+
+        //consulta para verificar o proxima
+        System.out.println(fila.peek());
+
+        System.out.println(fila.size());
+
+        //chamar o proximo, recupera e remove da fila
+        System.out.println(fila.poll());
+
+        System.out.println(fila.size());
+
+        System.out.println(fila.poll());
+
+        System.out.println(fila.size());
+
+        fila.remove("carlos");
 
 
 //        Stack<String> nomes = new Stack<>();
