@@ -1,5 +1,7 @@
 package org.example.simulado.ex1;
 
+import java.util.Arrays;
+
 public class SomaDeArray {
     public static void main(String[] args) {
 
@@ -9,9 +11,8 @@ public class SomaDeArray {
         for (int i = 0; i < arrayA.length; i++){
              arrayC[i] = arrayA[i] + arrayB[i];
         }
-        for (int j = 0; j < arrayC.length ; j++) {
-            System.out.println(arrayC[j]);
+        System.out.println(Arrays.toString(arrayC));
 
-        }
+
     }
 }
