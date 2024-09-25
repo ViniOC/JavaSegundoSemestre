@@ -1,0 +1,9 @@
+protocolo e arquitetura rest	
+
+game -> <> -> maquina 1gb ram, i3 (maquina limitante)
+
+maquina na nuvem que possui um poder de processamento melhor que a maquina do ususario 
+
+servidor trabalho duro -> xbox cloud
+
+
